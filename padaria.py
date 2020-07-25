@@ -33,6 +33,28 @@
 #          QtdeProduto --> quantidade do produto que está sendo comprado
 # Saída: salvar a compra num array
 def fn_LerQuantidades(int_CodigoProduto, int_QtdeProduto):
+	compraPao = []
+    compraBroa = []
+    bool_isValid = False
+
+    while not bool_isValid:
+        var1 = int(input("Informe a quantidade de pão que comprar: "))
+        var2 = int(input("Informe a quantidade de broa deseja comprar: "))
+    
+        if var1 != 0:
+            valorPao = var1 * pao
+            compraPao.append(valorPao)
+
+        if var2 != 0:
+            valorBroa = var2 * broa
+            compraBroa.append(valorBroa)
+        
+        a = input("Deseja continuar comprando[s/n]: ")
+
+        if a == "s":
+            bool_isValid = False
+        else:
+            bool_isValid = True
 
 # Função responsável por calcular a quantidade de vendas de pães e broas
 # Entrada: ler o array, somar os valores dos produtos
