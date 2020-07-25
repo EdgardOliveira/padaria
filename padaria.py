@@ -37,11 +37,11 @@ flt_CustoEuro = 4.6
 flt_PercentualConverterEuros = 0.15
 
 # Variáveis globais
-flt_TotalPaes = 0;
-flt_TotalBroas = 0;
+flt_TotalPaes = 0
+flt_TotalBroas = 0
 flt_TotalArrecadado = 0
 flt_CustosFabricacao = 0
-flt_LucroLiquido = 0;
+flt_LucroLiquido = 0
 flt_Poupanca = 0
 flt_ValorReservadoEuro = 0
 flt_Euros = 0
